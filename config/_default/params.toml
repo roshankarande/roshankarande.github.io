@@ -1,10 +1,10 @@
-twitter = "@janedoe"
+twitter = "@karande_roshan"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+introDescription = "Technologist, student..."
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "" # set your site's description here. will be use for home page content meta tags (seo). Alternatively set this description in your homepage content file i.e content/_index.md. Whatever is set in the latter will take precedence
 
-# showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
+showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
 
 # Google analytics Id
 ga_analytics = "XXXXXXXXXX"
@@ -28,13 +28,13 @@ fallBackOgImage = "images/thumbnail.png"
 codeMaxLines = 7
 
 # disable showing line numbers by default. Switch to `true` if you'd rather have them on.
-codeLineNumbers = false
+codeLineNumbers = true
 
 # enable math notation. Switch to `true` to enable mathjax in your site.
-enableMathNotation = false
+enableMathNotation = true
 
 # directory(s) where your articles are located
-mainSections = ["post"] # see config details here https://gohugo.io/functions/where/#mainsections
+mainSections = ["post","project","archives"] # see config details here https://gohugo.io/functions/where/#mainsections
 
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
@@ -62,7 +62,7 @@ enforceLightMode = false
 # footerLogo = "icons/copy.svg"
 
 # Text for the languages menu.
-languageMenuName = "🌐"
+# languageMenuName = "🌐"
 
 # Title separator, default to |.
 # titleSeparator = "|"
@@ -93,8 +93,8 @@ iconsDir = "icons/" # without a leading forward slash
 
 # website author
 [author]
-name = "Jane Doe"
-# photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
+name = "Roshan Karande"
+# photo = "images/roshan_pic.png" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
 enable = false # to enable plausible analytics set to true.

@@ -15,7 +15,7 @@ simple = true
 disableInlineCSS = true
 
 [privacy.instagram]
-disabled = false
+disabled = true
 simple = true
 
 [privacy.youtube]

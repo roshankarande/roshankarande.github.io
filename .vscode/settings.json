@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "assets/**": true,
+        "exampleSite/**": true,
+        "i18n/**": true,
+        "layouts/**": true,
+        "resources/**": true
+    }
+}
