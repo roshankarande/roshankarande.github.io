@@ -2,7 +2,7 @@
 author = "Roshan Karande"
 title = "Distances.jl"
 date = "2022-02-05"
-description = "Create beautiful videos"
+description = "Some examples from Distances.jl"
 featured = true
 tags = [
     "linear algebra","matrix"
