@@ -1,21 +1,44 @@
-+++
-author = "Roshan Karande"
-title = "Notices"
-date = "2022-02-05"
-description = "Create beautiful videos"
-featured = true
-+++
+---
+author: Roshan Karande
+title: Using Notices
+date: 2021-08-20
+description: Using Notices functionality withhin this theme
+---
 
-Some random text
+The "Notices" shortcode enables you to call out pieces of information - sidebars, warnings, tips, etc.
+
+To create a notice on a page, you can use the `notice` shortcode.  
+You use the `notice` shortcode, with the first parameter being one of `note`, `info`, `tip`, and `warning`.  Then add a title for your 
+note in quotes as the second parameter.  The inner body of the note can be whatever markdown you want to create.
+
+The following shortcode syntax within a markdown doc:
+```
+{{%/* notice note "Note" */%}}
+This is a standard "note" style.
+{{%/* /notice */%}}
+```
+will render as:
+
+{{% notice note "Note" %}}
+This is a standard "note" style.
+{{% /notice %}}
+
+The other three variants follow.
+
+{{% notice info "Info" %}}
+Here is the "info" style.
+{{% /notice %}}
+
+{{% notice tip "Tip" %}}
+Here is a "tip" variant of a notice.
+{{% /notice %}}
+
+{{% notice warning "Warning" %}}
+Here is the "warning" flavor of a notice.
+{{% /notice %}}
 
 
-{{% notice note "Note" %}} This is a standard "note" style.{{% /notice %}}
-
-{{% notice info "Info" %}} Here is the "info" style. {{% /notice %}}
-
-{{% notice tip "Tip" %}} Here is a "tip" variant of a notice. {{% /notice %}}
-
-{{% notice warning "Warning" %}} Here is the "warning" flavor of a notice. {{% /notice %}}
+Also note that the content of a notice can contain anything you could put on a normal page - as shown below:
 
 {{% notice tip "Complex Notices are Possible!" %}}
 This is a notice that has a lot of various kinds of content in it.  

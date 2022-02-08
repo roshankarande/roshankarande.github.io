@@ -6,7 +6,7 @@ aliases = ["about","contact"]
 author = "Roshan Karande"
 +++
 
-![:left::round](images/about/roshan.png) Some random text out here
+![:left::round](images/about/roshan_karande.png) Some random text out here
 
 <!-- {{< figure src="http://localhost:1313/images/roshan-karande.png" alt=":left">}} -->
 
